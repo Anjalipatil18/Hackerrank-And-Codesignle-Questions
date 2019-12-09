@@ -5,6 +5,4 @@ function Rectangle(a, b) {
     var area = length*width;
     const obj={length,width,perimeter,area};
     return obj;
-    
-
 }

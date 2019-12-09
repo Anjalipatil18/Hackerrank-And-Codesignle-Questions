@@ -3,10 +3,10 @@ function getSecondLargest(nums) {
     var i=0;
     var max=nums[i];
     while (i<nums.length){
-    if (nums[i]>max){
-        max=nums[i]
-    }
-    i++;
+        if (nums[i]>max){
+            max=nums[i]
+        }
+        i++;
     }
     var j=0;
     var secondMax=0;

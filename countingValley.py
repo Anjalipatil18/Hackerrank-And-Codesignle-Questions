@@ -9,3 +9,4 @@ def countingValleys(n, s):
         if (level==0 and i=="U"):
             count+=1
     return count 
+countingValleys(8,'UDDDUDUU')
